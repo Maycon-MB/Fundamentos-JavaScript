@@ -7,11 +7,9 @@ Você terá 3 variáveis. Sendo elas:
 
 Imprima no console o valor que será gasto de combustível para realizar esta viagem. */
 
-const precoCombustivel = 5.25;
-let gastoKm = 10;
-let distanciaViagem = 45;
+const precoCombustivel = 5.1;
+let gastoMedioKM = 50;
+let distanciaKM = 30;
 
-calculoGasto = (distanciaViagem / gastoKm) * precoCombustivel
-
-console.log(calculoGasto.toFixed(2));
+console.log(gastoMedioKM / distanciaKM);
 /* toFixed serve para reduzir as casas decimais */
